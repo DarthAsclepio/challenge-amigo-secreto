@@ -1,3 +1,8 @@
 // El principal objetivo de este desafío es fortalecer tus habilidades en lógica de programación. Aquí deberás desarrollar la lógica para resolver el problema.
 
-//Hola mundo asclepio
+let amigos = [];
+console.log(amigos)
+
+function adicionAmigo() {
+    
+}
