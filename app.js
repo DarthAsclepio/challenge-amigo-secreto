@@ -24,3 +24,12 @@ function agregarAmigo() {
     //console.log(nombreAmigo);
 }
 
+//Visualizar los nombres ingresados en pantalla
+function visualizarNombres () {
+    let listado = document.getElementById("listaAmigos");
+    listado.innerHTML = "";
+
+    for (let i = 0; i<listadoAmigos.length ; i++){
+        let 
+    }
+}
