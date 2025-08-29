@@ -2,11 +2,11 @@
 // lógica de programación. Aquí deberás desarrollar la lógica para resolver el problema.
 
 
-// Variables:
+// Paso 1: Crear una lista/array para guardar los nombres
 let listadoAmigos = [];
 
 
-// Paso 1: Agregamos la funcion para agregar amigos. 
+// Paso 2: Agregamos la funcion para agregar amigos. 
 
 function agregarAmigo() {
     let adicionAmigos = document.getElementById("amigo");
@@ -20,28 +20,30 @@ function agregarAmigo() {
         alert("Parece ser que este nombre ya esta en la lista, añade uno diferente.");
         return;
     }
-
+    
+    // Agregar nombres a la memoria del programa y limpia el campo para un nuevo nombre
     listadoAmigos.push(nombreAmigo);
     adicionAmigos.value = "";
 
-    // LLama a la función para poder visualizar los nombres en la pantalla
+    // LLama a la función del "Paso 3" para poder visualizar los nombres en la pantalla
     visualizarNombres();
 
-
+    // Datos consola 
     console.log(nombreAmigo);
 }
 
 
-// Paso 2: Adición de los nombres en lista de HTML
+// Paso 3: Adición de los nombres en lista de HTML
 
 function visualizarNombres () {
     let listado = document.getElementById("listaAmigos");
     listado.innerHTML = "";
 
-    for (let i = 0; i < listadoAmigos.length ; i++){
+    // Bucle de adición y verificación de los nombres
+    for (let i = 0; i < listadoAmigos.length ; i++) {
         listado.innerHTML += "<li>" + listadoAmigos[i] + "</li>";
     }
 
+    // Datos consola
     console.log(listadoAmigos);
-
 }
