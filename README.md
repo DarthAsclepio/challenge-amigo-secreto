@@ -1,4 +1,4 @@
-🎁 Amigo Secreto
+# 🎁 Amigo Secreto
 
 Este proyecto es un mini juego interactivo hecho con HTML, CSS y JavaScript que permite:
 
@@ -8,9 +8,9 @@ Este proyecto es un mini juego interactivo hecho con HTML, CSS y JavaScript que 
 
 🎲 Sortear aleatoriamente a tu amigo secreto con un solo clic.
 
+---
 
-
-🚀 ¿Cómo funciona?
+## 🚀 ¿Cómo funciona?
 
 1. Escribe el nombre de un amigo en la caja de texto y haz clic en “Añadir”.
 
@@ -20,6 +20,8 @@ Este proyecto es un mini juego interactivo hecho con HTML, CSS y JavaScript que 
 
 4. El programa seleccionará de manera aleatoria a uno de los nombres y lo mostrará en pantalla como “Tu amigo secreto es…”.
 
-¿Como descargarlo?
+---
+
+## ¿Como descargarlo?
 
 Para usarlo solo necesitas descargar el proyecto y abrir el archivo index.html en tu navegador. Ahí podrás escribir los nombres, añadirlos y finalmente hacer clic en el botón de sorteo para que aparezca en pantalla el nombre elegido.
