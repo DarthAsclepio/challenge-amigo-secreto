@@ -47,3 +47,22 @@ function visualizarNombres () {
     // Datos consola
     console.log(listadoAmigos);
 }
+
+// Paso 4: Sortear amigo
+
+    // Código de validación de que hay nombres introducidos
+function sortearAmigo () {
+    if (listadoAmigos.length === 0) {
+        alert("No hay amigos para sortear, por favor ingresa los nombres de tus amigos");
+        return;
+    }
+    // Indice de aleatoriedad
+    let amigoAleatorio = Math.floor(Math.random() * listadoAmigos.length);
+
+    // Obtención del numero sorteado
+    let nombreSorteado = listadoAmigos[amigoAleatorio];
+
+    // Mostrar el número sorteado
+    let resultadoAmigoSorteado = document.getElementById("resultado");
+    resultadoAmigoSorteado.innerHTML = "<li> Tu amigo secreto es:" + nombreSorteado + "</li>";
+}
